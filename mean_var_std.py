@@ -25,10 +25,5 @@ def calculate(list):
         'sum': [arr.sum(axis=0).tolist(), arr.sum(axis=1).tolist(), arr.sum().item()]
     }
 
-    return calculations
-
-    
-
-
 
     return calculations
